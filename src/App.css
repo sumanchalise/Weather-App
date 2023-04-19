@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font: bold;
+  font-size: x-large;
+  padding-top: 20px;
+  background-image: url(../Assests/bg.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: top;
+  min-height: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.weather-today {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10vh;
+  border: 2px solid rgb(56, 52, 52);
+  box-shadow: -0.1em 0.1em 0.9em #000000;
+  margin: auto;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 2vh;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  font-size: 25px;
+  border: 2px solid rgb(114, 105, 105);
+  box-shadow: -0.1em 0.1em 0.9em #5e5555;
+}
+
+.input {
+  border-color: #ccc;
+  border-radius: 0 15px;
+  font-size: large;
+  padding: 5px;
+  outline: none;
+  width: 250px;
+  height: 42px;
+}
+
+.button {
+  padding: 5px;
+  border-radius: 0 15px;
+  font-size: large;
+  font-style: italic;
+  padding-inline: 10px;
+  height: 43px;
+}
+
+.coord {
+  display: flex;
+  gap: 10vh;
+  font-size: large;
+  color: white;
+  font: bold 18px arial;
+}
+
+.head {
+  font-size: xx-large;
+  font: bold 35px arial;
+  margin-bottom: 20px;
+  color: orange;
+}
+
+.loading {
+  color: rgb(255, 255, 255);
+}
+
+.city {
+  font-size: 6vh;
+  color: white;
+  font-weight: 500;
+  text-shadow: 0.09em 0.13em 0.1em #330404;
+}
+
+.temp {
+  margin-top: 5vh;
+  font-size: 4vh;
+  font-weight: 500;
+  color: white;
+  text-shadow: 0.1em 0.15em 0.1em #2b1313;
+}
+
+.temp2 {
+  font-size: large;
+  color: white;
+  font-weight: bold;
+}
+
+.desc {
+  margin-top: 30px;
+  font-size: xx-large;
+  font-weight: 500;
+  color: white;
+}
+
+.sun {
+  display: flex;
+  gap: 15vh;
+  color: white;
+}
+
+.cloud {
+  color: white;
+}
+.error {
+  color: red;
+  font-size: xx-large;
+  font-weight: 600;
+}
