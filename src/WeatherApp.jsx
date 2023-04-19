@@ -49,7 +49,7 @@ const WeatherApp = () => {
           Get Weather
         </button>
       </div>
-      <div>
+      <div className="content">
         {isLoading ? (
           <div className="loading">Retrieving Data...</div>
         ) : error ? (
